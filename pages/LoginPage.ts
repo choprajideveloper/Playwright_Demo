@@ -15,6 +15,7 @@ export class LoginPage{
         this.loginButton=page.getByRole('button',{name:'login'});
         this.invalidCredentialsErrorPopup=page.getByText('Invalid credentials');
         console.log("hey this is new git practice");
+        console.log("If this is in your code means pull is success");
 
     }
 
