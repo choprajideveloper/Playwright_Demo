@@ -15,7 +15,6 @@ export class LoginPage{
         this.loginButton=page.getByRole('button',{name:'login'});
         this.invalidCredentialsErrorPopup=page.getByText('Invalid credentials');
         console.log("Practice 2");
-        console.log("This is second change from Cursor");
 
     }
 
