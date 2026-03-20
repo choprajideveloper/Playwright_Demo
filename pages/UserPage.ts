@@ -11,7 +11,6 @@ constructor(page:Page)
 this.page=page;
 this.userMenuButton=page.locator('.oxd-userdropdown-icon');
 this.logoutButton=page.getByRole('menuitem',{name:'Logout'});
-console.log("Second change in User Page");
 }
 
 async logOut()
