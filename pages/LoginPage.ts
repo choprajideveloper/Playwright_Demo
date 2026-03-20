@@ -14,8 +14,7 @@ export class LoginPage{
         this.passwordInput = page.locator('input[name="password"]');
         this.loginButton=page.getByRole('button',{name:'login'});
         this.invalidCredentialsErrorPopup=page.getByText('Invalid credentials');
-        console.log("hey this is new git practice");
-        console.log("If this is in your code means pull is success");
+        console.log("Practice 2");
 
     }
 
@@ -23,7 +22,6 @@ export class LoginPage{
    async gotoOrangeHrm()
     {
         await this.page.goto(`${process.env.BASE_URL}/web/index.php/auth/login`);
-        console.log("Test Git");
     }
 
 /* Login to HRM */
