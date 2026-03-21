@@ -14,7 +14,6 @@ export class LoginPage{
         this.passwordInput = page.locator('input[name="password"]');
         this.loginButton=page.getByRole('button',{name:'login'});
         this.invalidCredentialsErrorPopup=page.getByText('Invalid credentials');
-        console.log("Practice 2");
 
     }
 
