@@ -20,6 +20,7 @@ export class PimPage{
         this.lastNameTextBox=page.getByRole('textbox',{name:'Last Name'});
         this.saveButton=page.getByRole('button',{name:'Save'});
         this.newEmployeeNameHeading=page.locator('.orangehrm-edit-employee-name');
+        console.log("Todays Demo in Pim Page");
     }
 
 // To add a new employee in PIM 
