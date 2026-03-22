@@ -12,6 +12,7 @@ export class LeftNavigationPage {
         this.pimLink = page.getByRole('link', { name: 'PIM' });
         this.orangeHrmLogo = page.getByRole('link', { name: 'client brand banner' });
         this.leftNavigationPanel = page.locator('div.oxd-sidepanel-body');
+        console.log("Directly from Git Hub");
     }
 
     async openPimModule() {
